@@ -1,0 +1,38 @@
+{
+  "name": "phaser-3-webpack-cordova",
+  "displayName": "Phaser 3 WC",
+  "version": "1.0.0",
+  "description": "A boilerplate template with Phaser, Webpack and Cordova",
+  "main": "index.js",
+  "scripts": {
+    "get-ip": "echo $(echo 'http://')$(ipconfig getifaddr en0)",
+    "build": "webpack --mode=production",
+    "serve": "webpack serve --config webpack.config.js --open"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.1.0",
+    "node-sass": "^7.0.0",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.0.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.43.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "dependencies": {
+    "@chrisoakman/chessboardjs": "^1.0.0",
+    "chess.js": "^1.0.0-alpha.0"
+  }
+}

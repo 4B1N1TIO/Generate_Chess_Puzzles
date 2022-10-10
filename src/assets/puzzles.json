@@ -1,0 +1,81 @@
+[
+    {
+        "puzzle-uuid": "39325024-3728-11eb-bf90-0069e4010001",
+        "puzzle-fen": "r4rk1/5Rp1/3p3p/p1p5/1pP1P1Q1/3q3P/6P1/5RK1 w - - 0 27",
+        "puzzle-solution": [
+            "g4g7"
+        ],
+        "puzzle_type": "checkmate",
+        "puzzle-complexity": 1
+    },
+    {
+        "puzzle-uuid": "4d573608-3729-11eb-bf90-0069e4010001",
+        "puzzle-fen": "RQ6/6p1/5pkp/4p3/4P3/5P1P/6PK/8 w - - 1 49",
+        "puzzle-solution": [
+            "b8f8",
+            "g6h5",
+            "f8g7",
+            "f6f5",
+            "g2g4",
+            "f5g4",
+            "g7g4"
+        ],
+        "puzzle_type": "checkmate",
+        "puzzle-complexity": 7
+    },
+    {
+        "puzzle-uuid": "10089a54-372c-11eb-bf90-0069e4010001",
+        "puzzle-fen": "r1b2k2/ppp3pp/2n5/b3p2B/4P3/1QPq4/P4PPP/RN3RK1 w - - 3 15",
+        "puzzle-solution": [
+            "b3f7"
+        ],
+        "puzzle_type": "checkmate",
+        "puzzle-complexity": 1
+    },
+    {
+        "puzzle-uuid": "65c7e5d5-372c-11eb-bf90-0069e4010001",
+        "puzzle-fen": "8/5Rpk/P6p/3B4/5P2/7P/5P2/6K1 w - - 1 45",
+        "puzzle-solution": [
+            "d5e4",
+            "h7g8",
+            "f7c7",
+            "g7g6",
+            "a6a7",
+            "h6h5",
+            "a7a8q"
+        ],
+        "puzzle_type": "checkmate",
+        "puzzle-complexity": 7
+    },
+    {
+        "puzzle-uuid": "65c7e5d5-372c-11eb-bf90-0069e4010001",
+        "puzzle-fen": "6k1/P4Rp1/7p/3B4/5P2/7P/5P2/6K1 w - - 1 46",
+        "puzzle-solution": [
+            "a7a8q",
+            "g8h7",
+            "d5e4"
+        ],
+        "puzzle_type": "checkmate",
+        "puzzle-complexity": 3
+    },
+    {
+        "puzzle-uuid": "3a5ff0e1-3741-11eb-bf90-0069e4010001",
+        "puzzle-fen": "8/8/8/4K3/7k/6pp/4Q3/8 w - - 2 52",
+        "puzzle-solution": [
+            "e5f4",
+            "g3g2",
+            "e2g4"
+        ],
+        "puzzle_type": "checkmate",
+        "puzzle-complexity": 3
+    },
+    {
+        "puzzle-uuid": "3a5ff0e1-3741-11eb-bf90-0069e4010001",
+        "puzzle-fen": "8/8/8/8/5K1k/7p/4Q1p1/8 w - - 0 53",
+        "puzzle-solution": [
+            "e2g4"
+        ],
+        "puzzle_type": "checkmate",
+        "puzzle-complexity": 1
+    }
+]
