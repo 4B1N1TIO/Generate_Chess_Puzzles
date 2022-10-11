@@ -1,7 +1,7 @@
 # Generate_Chess_Puzzles 
 
 <br/>
-This repository generates checkmate chess puzzles from games played on chess.com by a specified user (preferable you) via a python script. The generated checkmate puzzles are stored in a local json file. After that one can run a webpack dev server that utilizes chessboard.js and chess.js to make the generated and stored chesspuzzles solvable in the local browser. 
+This repository generates checkmate chess puzzles from games played on chess.com by a specified user (preferably you) via a python script. The generated checkmate puzzles are stored in a local json file. After that one can run a webpack dev server that utilizes chessboard.js and chess.js to make the generated and stored chesspuzzles solvable in the local browser. 
 
 <br/>
 
@@ -39,7 +39,7 @@ yarn
 ## Available scripts
 ### Generate Chess puzzles
 ```shell
-python puzzle-generation.py -u CHESSDOTCOM_USERNAME -p PATH_TO_STOCKFISH [-n NUMBER_OF_GAMES_USED]
+python puzzle_generation.py -u CHESSDOTCOM_USERNAME -p PATH_TO_STOCKFISH [-n NUMBER_OF_GAMES_USED]
 
 ```
 #### A json file with generated checkmate puzzles extracted from the supplied user's games is created in src/assets/puzzles.json. This may take a while, because all the user's games have to be downloaded and NUMBER_OF_GAMES_USED games have to be evaluated by stockfish.
