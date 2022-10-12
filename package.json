@@ -1,8 +1,8 @@
 {
-  "name": "phaser-3-webpack-cordova",
-  "displayName": "Phaser 3 WC",
+  "name": "generate-chess-puzzles",
+  "displayName": "Chess Puzzles",
   "version": "1.0.0",
-  "description": "A boilerplate template with Phaser, Webpack and Cordova",
+  "description": "Template to install all dependencies",
   "main": "index.js",
   "scripts": {
     "get-ip": "echo $(echo 'http://')$(ipconfig getifaddr en0)",

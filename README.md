@@ -6,10 +6,10 @@ This repository generates checkmate chess puzzles from games played on chess.com
 <br/>
 
 ## Requirements
-- [Python3](https://www.python.org/downloads/release/python-3913/)
+- [Python3](https://www.python.org/downloads/release/python-3913/) [Version >= 3.9.5]
 - [Stockfish](https://stockfishchess.org/download/)
-- [Node.js](https://nodejs.org/en/)
-- [Yarn](https://yarnpkg.com/en/docs/install#mac-stable)
+- [Node.js](https://nodejs.org/en/) [Version >= v16.2.0]
+- [Yarn](https://yarnpkg.com/en/docs/install#mac-stable) [Version >= 1.22.10]
 
 ## Getting Started
 Installation steps to set this repository up and running the application.
@@ -28,8 +28,13 @@ cd PROJECT_NAME
 ```
 
 #### Install Python dependecies
+Windows
 ```shell
 python -m pip install -r requirements.txt
+```
+Linux / MacOS
+```shell
+python3 -m pip install -r requirements.txt
 ```
 #### Install NPM dependencies
 ```shell
