@@ -8,8 +8,8 @@ This repository generates checkmate chess puzzles from games played on chess.com
 ## Requirements
 - [Python3](https://www.python.org/downloads/release/python-3913/) [Version >= 3.9.5]
 - [Stockfish](https://stockfishchess.org/download/)
-- [Node.js](https://nodejs.org/en/) [Version >= v16.2.0]
-- [Yarn](https://yarnpkg.com/en/docs/install#mac-stable) [Version >= 1.22.10]
+- [Node.js](https://nodejs.org/en/) $\;$[Version >= v16.2.0]
+- [Yarn](https://yarnpkg.com/en/docs/install#mac-stable) $\hspace{0.51cm}$[Version >= 1.22.10]
 
 ## Getting Started
 Installation steps to set this repository up and running the application.
@@ -61,6 +61,14 @@ On desktop visit http://localhost:8080 to open the project. An example puzzle in
 
 ![banner](banner.png)
 
+## Feedback and Contribution
+If you find a bug or if you have a feature request , please file an issue.
 
-Good luck solving your created checkmate puzzles!
+Contribution is always welcome. Let me know that you want to contribute and please raise an issue before making a PR, so that the issue and implementation can be discussed before you write any code. 
+
+Good luck solving your on the fly created checkmate puzzles!
+
+
+
+
 
